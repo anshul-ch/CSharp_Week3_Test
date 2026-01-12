@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7pV22dw6vcg=",
+  "success": true,
+  "projectFilePath": "/home/anshul/Desktop/CSharp_Week3_Test/CSharp_Week3_Test.csproj",
+  "expectedPackageFiles": [
+    "/home/anshul/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
