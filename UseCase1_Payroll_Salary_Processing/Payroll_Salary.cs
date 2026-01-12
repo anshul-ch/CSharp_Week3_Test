@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Linq; // ✅ REQUIRED for Sum, Count, OrderByDescending
-
+using System.Linq;
 namespace CSharp_Week3_Test.UseCase1_Payroll_Salary_Processing
 {
     class Payroll_Salary
@@ -16,7 +15,7 @@ namespace CSharp_Week3_Test.UseCase1_Payroll_Salary_Processing
                 new ContractEmployee(3, "Charlie", 1500, 20),
                 new ContractEmployee(4, "Diana", 1200, 22),
                 new FullTimeEmployee(5, "Evan", 45000),
-                new ContractEmployee(6, "Fiona", 1000, 25)
+                new ContractEmployee(6, "Fiona", 1000, 25),
             };
 
             Console.WriteLine("6 employees added successfully.\n");

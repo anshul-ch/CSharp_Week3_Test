@@ -7,7 +7,7 @@ namespace CSharp_Week3_Test.UseCase1_Payroll_Salary_Processing
     /// </summary>
     public class FullTimeEmployee : Employee
     {
-        private decimal _monthlySalary;
+        private decimal MonthSalary;
 
         public FullTimeEmployee(int id, string name, decimal monthlySalary)
             : base(id, name, "FullTime")
@@ -15,13 +15,13 @@ namespace CSharp_Week3_Test.UseCase1_Payroll_Salary_Processing
             if (monthlySalary < 0)
                 throw new ArgumentException("Salary cannot be negative");
 
-            _monthlySalary = monthlySalary;
+            MonthSalary = monthlySalary;
         }
 
         // Fixed salary with 20% deduction
         public override PaySlip CalculatePay()
         {
-            decimal gross = _monthlySalary;
+            decimal gross = MonthSalary;
             decimal deductions = gross * 0.20m;
             decimal net = gross - deductions;
 
