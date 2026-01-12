@@ -18,12 +18,12 @@ namespace CSharp_Week3_Test.UseCase2_Online_Order_Processing
             };
 
             // Customers
-            Customer c1 = new Customer(1, "Alice");
-            Customer c2 = new Customer(2, "Bob");
-            Customer c3 = new Customer(3, "Charlie");
+            Customer customer1 = new Customer(1, "Alice");
+            Customer customer2 = new Customer(2, "Bob");
+            Customer customer3 = new Customer(3, "Charlie");
 
             // Orders
-            Order order1 = new Order(101, c1);
+            Order order1 = new Order(101, customer1);
             order1.AddItem(new OrderItem(products[1], 1));
             order1.AddItem(new OrderItem(products[2], 2));
 
